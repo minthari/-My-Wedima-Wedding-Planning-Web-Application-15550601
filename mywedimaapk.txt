@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="com.example.app"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <application
+        android:theme="@ref/0x7f050000"
+        android:label="@ref/0x7f040000"
+        android:icon="@ref/0x7f030000"
+        android:allowBackup="true"
+        android:fullBackupContent="true">
+
+        <activity
+            android:label="@ref/0x7f040000"
+            android:name="com.Webviewofmywedima.app.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
